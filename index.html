@@ -19,11 +19,17 @@
                 <span></span>
                 <span></span>
             </button>
-            <ul class="nav-menu">
-                <li><a href="#work" class="nav-link">work</a></li>
-                <li><a href="#about" class="nav-link">about</a></li>
-                <li><a href="#contact" class="nav-link">contact</a></li>
-            </ul>
+            <div class="nav-right">
+                <ul class="nav-menu">
+                    <li><a href="#work" class="nav-link">work</a></li>
+                    <li><a href="#experience" class="nav-link">experience</a></li>
+                    <li><a href="#about" class="nav-link">about</a></li>
+                    <li><a href="#contact" class="nav-link">contact</a></li>
+                </ul>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-text">dark</span>
+                </button>
+            </div>
         </div>
     </nav>
 
@@ -36,6 +42,51 @@
                 <p class="hero-description">
                     Currently studying [Your Major] at [University]. Building things with code.
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+
+                <article class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Job Title</h3>
+                            <p class="experience-company">Company Name</p>
+                        </div>
+                        <span class="experience-period">2023 - Present</span>
+                    </div>
+                    <p class="experience-description">
+                        What you did at this job. Key responsibilities and achievements.
+                    </p>
+                    <div class="experience-tech">
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>AWS</span>
+                    </div>
+                </article>
+
+                <article class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Intern</h3>
+                            <p class="experience-company">Another Company</p>
+                        </div>
+                        <span class="experience-period">Summer 2023</span>
+                    </div>
+                    <p class="experience-description">
+                        What you worked on during your internship.
+                    </p>
+                    <div class="experience-tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                    </div>
+                </article>
+
             </div>
         </div>
     </section>
