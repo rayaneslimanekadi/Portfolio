@@ -10,7 +10,7 @@
     --gray: #666;
     --light-gray: #e0e0e0;
     --white: #fafafa;
-    --accent: #0066ff;
+    --accent: #2d2d2d;
 }
 
 html {
@@ -102,6 +102,7 @@ h1, h2, h3 {
     display: flex;
     align-items: center;
     padding-top: 80px;
+    border-bottom: 1px solid var(--light-gray);
 }
 
 .hero-content {
@@ -113,6 +114,18 @@ h1, h2, h3 {
     font-weight: 600;
     margin-bottom: 1rem;
     letter-spacing: -0.02em;
+    position: relative;
+    display: inline-block;
+}
+
+.hero-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--black);
 }
 
 .hero-subtitle {
