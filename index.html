@@ -11,166 +11,144 @@
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">yourname</div>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-            </button>
-            <div class="nav-right">
-                <ul class="nav-menu">
-                    <li><a href="#work-experience" class="nav-link">work experience</a></li>
-                    <li><a href="#projects" class="nav-link">projects</a></li>
-                    <li><a href="#contact" class="nav-link">contact</a></li>
-                    <li><a href="resume.pdf" target="_blank" class="nav-link">resume</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
+    <!-- Hero & Work Experience Section -->
     <section id="home" class="hero">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Your Name</h1>
-                <p class="hero-description">
-                    Currently studying [Your Major] at [University]. Building things with code.
-                </p>
+            <div class="project-links">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm Rayane</h1>
+                    <p class="hero-description">
+                        Currently studying Computer Science at the University of Ottawa.
+                    </p>
+                    
+                    <div class="education-item">
+                        <div class="education-image">
+                            <img src="assets/uottawa.jpeg" alt="University Logo">
+                        </div>
+                        <div class="education-content">
+                            <h3 class="education-title">Honours B.Sc. Computer Science</h3>
+                            <span class="education-period">2024 - Present</span>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-link-container">
+                        <a href="./assets/resume.pdf" target="_blank" class="link">View Resume →</a>
+                    </div>
+                </div>
+                <div id="work-experience" class="experience">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="experience-list">
+
+                        <article class="experience-item">
+                            <div class="experience-image">
+                                <img src="assets/fintrac.jpeg" alt="Company Logo">
+                            </div>
+                            <div class="experience-content">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-title">Student - Software Developer</h3>
+                                        <p class="experience-company">FINTRAC</p>
+                                    </div>
+                                    <span class="experience-period">May 2025 - Aug. 2025</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="experience-item">
+                            <div class="experience-image">
+                                <img src="./assets/curtisswright.jpeg" alt="Company Logo">
+                            </div>
+                            <div class="experience-content">
+                                <div class="experience-header">
+                                    <div>
+                                        <h3 class="experience-title">Software Developer Intern</h3>
+                                        <p class="experience-company">Curtiss-Wright Defense Solutions</p>
+                                    </div>
+                                    <span class="experience-period">Feb. 2024 - Aug. 2025</span>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Work Experience Section -->
-    <section id="work-experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="experience-list">
-
-                <article class="experience-item">
-                    <div class="experience-image">
-                        <img src="company-logo-1.png" alt="Company Logo">
-                    </div>
-                    <div class="experience-content">
-                        <div class="experience-header">
-                            <div>
-                                <h3 class="experience-title">Job Title</h3>
-                                <p class="experience-company">Company Name</p>
-                            </div>
-                            <span class="experience-period">2023 - Present</span>
-                        </div>
-                        <p class="experience-description">
-                            What you did at this job. Key responsibilities and achievements.
-                        </p>
-                        <div class="experience-tech">
-                            <span>JavaScript</span>
-                            <span>React</span>
-                            <span>AWS</span>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="experience-item">
-                    <div class="experience-image">
-                        <img src="company-logo-2.png" alt="Company Logo">
-                    </div>
-                    <div class="experience-content">
-                        <div class="experience-header">
-                            <div>
-                                <h3 class="experience-title">Intern</h3>
-                                <p class="experience-company">Another Company</p>
-                            </div>
-                            <span class="experience-period">Summer 2023</span>
-                        </div>
-                        <p class="experience-description">
-                            What you worked on during your internship.
-                        </p>
-                        <div class="experience-tech">
-                            <span>Python</span>
-                            <span>Django</span>
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
+    <!-- Contact & Projects Section -->
     <section id="projects" class="work">
         <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-list">
+            <div class="project-links">
+                <div id="contact" class="contact">
+                    <h2 class="section-title">Contact</h2>
+                    <div class="contact-content">
+                        <div class="contact-links">
+                            <a href="mailto:rayane.slimkadi@gmail.com" class="contact-link">rayane.slimkadi@gmail.com</a>
+                            <a href="https://github.com/rayaneslimanekadi" target="_blank" class="contact-link">github.com/rayaneslimanekadi</a>
+                            <a href="https://linkedin.com/in/rayaneslimanekadi" target="_blank" class="contact-link">linkedin.com/in/rayaneslimanekadi</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-column">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="projects-list">
 
-                <article class="project">
-                    <div class="project-header">
-                        <h3 class="project-title">Project Name</h3>
-                        <span class="project-year">2024</span>
-                    </div>
-                    <p class="project-description">
-                        Brief description of what this project does and what you built it with.
-                    </p>
-                    <div class="project-tech">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>PostgreSQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="link">View Project →</a>
-                        <a href="#" class="link">GitHub →</a>
-                    </div>
-                </article>
+                        <article class="project">
+                            <div class="project-header">
+                                <h3 class="project-title">uostats.com</h3>
+                                <!-- <span class="project-year">2024</span> -->
+                            </div>
+                            <p class="project-description">
+                                Brief description of what this project does and what you built it with.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link">View Project →</a>
+                                <a href="#" class="link">GitHub →</a>
+                            </div>
+                        </article>
 
-                <article class="project">
-                    <div class="project-header">
-                        <h3 class="project-title">Another Project</h3>
-                        <span class="project-year">2024</span>
-                    </div>
-                    <p class="project-description">
-                        What this project does. Keep it straightforward.
-                    </p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>Django</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="link">View Project →</a>
-                        <a href="#" class="link">GitHub →</a>
-                    </div>
-                </article>
+                        <article class="project">
+                            <div class="project-header">
+                                <h3 class="project-title">Network Anomaly Detection</h3>
+                                <!-- <span class="project-year">2024</span> -->
+                            </div>
+                            <p class="project-description">
+                                What this project does. Keep it straightforward.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>scitkit-learn</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link">View Project →</a>
+                                <a href="#" class="link">GitHub →</a>
+                            </div>
+                        </article>
 
-                <article class="project">
-                    <div class="project-header">
-                        <h3 class="project-title">Side Project</h3>
-                        <span class="project-year">2023</span>
-                    </div>
-                    <p class="project-description">
-                        Another thing you built. What problem does it solve?
-                    </p>
-                    <div class="project-tech">
-                        <span>JavaScript</span>
-                        <span>Express</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" class="link">View Project →</a>
-                        <a href="#" class="link">GitHub →</a>
-                    </div>
-                </article>
+                        <article class="project">
+                            <div class="project-header">
+                                <h3 class="project-title">Network Traffic Simulator</h3>
+                                <!-- <span class="project-year">2023</span> -->
+                            </div>
+                            <p class="project-description">
+                                Another thing you built. What problem does it solve?
+                            </p>
+                            <div class="project-tech">
+                                <span>C++</span>
+                                <span>Raspberry Pi</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="link">View Project →</a>
+                                <a href="#" class="link">GitHub →</a>
+                            </div>
+                        </article>
 
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-content">
-                <div class="contact-links">
-                    <a href="mailto:your.email@example.com" class="contact-link">your.email@example.com</a>
-                    <a href="https://github.com/yourusername" target="_blank" class="contact-link">github.com/yourusername</a>
-                    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-link">linkedin.com/in/yourprofile</a>
+                    </div>
                 </div>
             </div>
         </div>
